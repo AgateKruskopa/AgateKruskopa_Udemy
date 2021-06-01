@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>LielieJani2021</title>
+    <link rel="icon" href="faviconLL.png">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="registrejies.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="registrejies.js"></script>
+
+    <header class="hContainer">
+        <h1 class="nosaukums">Lielie Jāņi 2021</h1>
+      </header>
+      
+      <nav class="content" role="main">
+      
+        <div class="card-container"> 
+            <a class="card" target="_self" rel="noopener" href="sakums.html">
+          <span>Sākums</span>
+        </a> 
+        <a class="card" target="_self" rel="noopener" href="programma.html">
+            <span>Programma</span>
+          </a>
+          <a class="card" target="_self" rel="noopener" href="registrejies.html">
+            <span>Reģistrējies</span>
+          </a>
+      </div>
+      </nav>
+</head>
+<body>
+<div class="containerDiv">
+    <div class="container">
+    
+      
+                            <div class="col-sm-12">
+                                <label>Vārds</label>
+                            </div>
+                            <div class="col-sm-12">
+                                <input id="vards" type="teksts">
+                            </div>
+                            <div class="col-sm-12">
+                                <label>Uzvārds</label>
+                            </div>
+                            <div class="col-sm-12">
+                                <input id="uzvards" type="text">
+                            </div>
+                            <div class="col-sm-12">
+                                <label>E-pasts</label>
+                            </div>
+                            <div class="col-sm-12">
+                                <input id="epasts" type="text">
+                            </div>
+                            <div class="col-sm-12">
+                                <label >Telefons</label>
+                            </div>
+                           <div class="col-sm-12">
+                                <input id="telefons" type="tel">
+                            </div>
+                            <div class="col-sm-12">
+                                <label ></label>Cik bērnus ņemsi līdzi? (Ja neņemsi, tad raksti 0)
+                            </div>
+                           <div class="col-sm-12">
+                                <input id="berni" type="number">
+                            </div>
+                            <div class="col-sm-12">
+                                <label ></label>Kur Tu vēlies, lai notiek pasākums: Code vai Biksti?
+                            </div>
+                           <div class="col-sm-12">
+                                <input id="vote" type="text">
+                            </div>
+                            <div class="col-sm-12">
+                                <button class="btn btn-light" onclick="registreties()">Reģistrēties</button>
+                            </div>
+                    </div>
+                    <!-- </div>
+                    <br>
+
+                 
+                        <div class="autorizācijaContainer">
+                        <label>Autorizējies ar savu telefona numuru</label><br>
+                        <input id="autorizācija" type="password"><br>
+                        <button type ="submit" value="Submit" onclick="uzDalibniekuTabulu()">Ejam iekšā!</button>  
+                    </div> -->
+        
+                    <br>
+
+                    <div class="tabulaContainer tabulaDalibnieki">
+                        <div class="row">
+                        <div class="vards" class="col-sm-3">Vārds
+                            <p class="vardsP"></p>
+                        </div>
+                        </div>
+                        <div class="row">
+                            <div class="uzvards" class="col-sm-3">Uzvārds
+                                <p class="uzvardsP"></p>
+                            </div></div>
+                            <div class="row epastsH">
+                            <div class="epasts" class="col-sm-3">E-pasts
+                                <p class="epastsP"></p>
+                            </div></div>
+                            <div class="row telefonsH">
+                            <div class="telefons" class="col-sm-3">Telefons
+                                <p class="telefonsP"></p>
+                            </div></div>
+                            <div class="row">
+                            <div class="berni" class="col-sm-3">Bērni
+                                <P class="berniP"></P>
+                            </div></div>
+                            <div class="vote" class="col-sm-3">Vieta
+                                <P class="voteP"></P>
+                            </div></div>
+                        </div>
+                        </div>
+                    
+    </body>
+    </html>
+    
